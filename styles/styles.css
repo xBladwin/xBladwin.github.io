@@ -1,7 +1,52 @@
-.leftside{
+.leftside {
   height: 100%;
   width: 200px;
   position: fixed;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
 
+.rightside {
+  float: right;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  overflow-x: hidden;
+  top: 0;
+  right: 0;
+}
 
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+  margin-left: 175px;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
 }
