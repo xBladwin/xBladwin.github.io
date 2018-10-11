@@ -1,30 +1,38 @@
-html {
-  background-image: linear-gradient(to top, #929292, 60%, white);
-}
-.leftside {
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  width: 200px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.leftside {
+  background-image: url('../images/test.png');
+  padding-bottom: 850px;
+  padding-left: 200px;
+  float: left;
   position: fixed;
-  overflow-x: hidden;
   top: 0;
   left: 0;
 }
 .rightside {
+  background-image: url('../images/test2.png');
+  padding-bottom: 850px;
   float: right;
-  height: 100%;
-  width: 200px;
+  padding-right: 200px;
   position: fixed;
-  overflow-x: hidden;
   top: 0;
   right: 0;
 }
-header{
+
+header {
   margin-left: 200px;
   margin-right: 200px;
   min-width: 200px;
 }
 
 main {
+  position: static;
   height: auto;
   padding-left: 300px;
   padding-right: 300px;
@@ -32,9 +40,6 @@ main {
   font-size: 24px;
 }
 
-h1 {
-  text-align: center;
-}
 
 nav {
   background-color: darkred;
@@ -67,22 +72,26 @@ a:hover {
   color: black;
   border-radius: 6px;
 }
+
 main img {
-  max-width: 100%;
+  display: block;
+  width: 70%;
   height: auto;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 105px;
   border: 1px solid black;
   border-radius: 50%;
-
 }
 
 @media screen and (max-width: 1000px) {
-  ul{
-    width: 100%;
+  ul {
     margin: 0;
     padding: 0;
     display: block;
   }
+
   li a {
     display: block;
     color: lightgray;
@@ -90,10 +99,12 @@ main img {
     border-bottom: 1px solid black;
     text-decoration: none;
   }
-  .borderfix a:last-child{
+
+  .borderfix a:last-child {
     border-bottom: none;
   }
-  main{
+
+  main {
     padding-left: 250px;
     padding-right: 250px;
     font-size: 16px;
