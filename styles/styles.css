@@ -1,3 +1,6 @@
+html {
+  background-image: linear-gradient(to top, #929292, 60%, white);
+}
 .leftside {
   height: 100%;
   width: 200px;
@@ -22,8 +25,7 @@ header{
 }
 
 main {
-  height: 800px;
-  background-image: linear-gradient(to top, #929292, 60%, white);
+  height: auto;
   padding-left: 300px;
   padding-right: 300px;
   padding-top: 80px;
@@ -41,6 +43,7 @@ nav {
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
+  border-bottom: 2px solid black;
 }
 
 ul {
@@ -62,6 +65,15 @@ li a {
 a:hover {
   background-color: white;
   color: black;
+  border-radius: 6px;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+
 }
 
 @media screen and (max-width: 1000px) {
