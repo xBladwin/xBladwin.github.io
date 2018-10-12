@@ -93,21 +93,80 @@ main img {
 .clonehero {
   border: 2px solid black;
   margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .recreate {
   border: 2px solid black;
   margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .practice {
   border: 2px solid black;
   margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .lancer {
   border: 2px solid black;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+ .clonehero a {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.recreate a {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.practice a {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.lancer a {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.info {
+  margin: 0;
+  margin-top: 15px;
+}
+
+section a {
+  color: #007fa9;
+}
+
+section a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 60%;
+}
+
+/**contact page**/
+
 
 /**media query to fix resize issues**/
 
