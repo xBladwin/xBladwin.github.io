@@ -6,9 +6,11 @@ html, body {
   background-color: lightgray;
 }
 
+/**index page**/
+
 .leftside {
   background-image: url('../images/test.png');
-  padding-bottom: 850px;
+  padding-bottom: 100%;
   padding-left: 200px;
   float: left;
   position: fixed;
@@ -17,7 +19,7 @@ html, body {
 }
 .rightside {
   background-image: url('../images/test2.png');
-  padding-bottom: 850px;
+  padding-bottom: 100%;
   float: right;
   padding-right: 200px;
   position: fixed;
@@ -26,6 +28,7 @@ html, body {
 }
 
 header {
+  margin-top: 10px;
   margin-left: 200px;
   margin-right: 200px;
   min-width: 200px;
@@ -85,7 +88,30 @@ main img {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1000px) {
+/**Projects page**/
+
+.clonehero {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.recreate {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.practice {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.lancer {
+  border: 2px solid black;
+}
+
+/**media query to fix resize issues**/
+
+@media screen and (max-width: 850px) {
   ul {
     margin: 0;
     padding: 0;
@@ -108,5 +134,11 @@ main img {
     padding-left: 250px;
     padding-right: 250px;
     font-size: 16px;
+  }
+  .leftside{
+    height: 100%;
+  }
+  .rightside {
+    height: 100%;
   }
 }
