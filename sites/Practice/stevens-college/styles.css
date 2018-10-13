@@ -1,0 +1,23 @@
+/* Add your CSS here */
+h1{
+  font-size: 80px;
+  margin-bottom: 2px;
+}
+li{
+  display: inline-block;
+  text-decoration: none;
+  background-color: maroon;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+}
+p{
+  position: absolute;
+  font-size: 25px;
+}
+img{
+  width: 100%;
+}
+ul{
+  text-align: center;
+}

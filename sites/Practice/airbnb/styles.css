@@ -1,0 +1,39 @@
+body{
+  width: 75%;
+  margin: 0 auto;
+}
+form label,
+form input{
+  display: block;
+  width: 100%;
+}
+form input{
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 2px;
+
+}
+h1{
+  background: url(https://via.placeholder.com/1700x400);
+  background-position: center;
+  background-size: cover;
+  color: blue;
+}
+a{
+  display: inline-block;
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 2.5rem 0 2.5rem 150px;
+  width: 33%;
+  position: relative;
+  height: 100px;
+}
+a:hover{
+  text-decoration: underline;
+}
+a img{
+  position: absolute;
+  float: left;
+  top: 0;
+  left: 0;
+}

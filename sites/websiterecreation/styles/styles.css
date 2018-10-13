@@ -1,0 +1,70 @@
+html{
+  background-color: maroon;
+  margin-left: 50px;
+  margin-right: 50px
+}
+nav ul{
+  display: block;
+  background-color: white;
+  width: 70%;
+  min-width: 650px;
+  padding: 20px;
+  margin: 0 auto;
+}
+ul li{
+  display: inline;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul li:nth-of-type(5n+1){
+  background-color: rgb(227, 176, 6);
+}
+ul li:nth-child(2){
+  background-color: darkred;
+}
+ul li:nth-child(3){
+  background-color: lightblue;
+}
+ul li:nth-child(4){
+  background-color: orange;
+}
+ul li:nth-child(5){
+  background-color: olive;
+}
+.redbox{
+  border: 4px solid white;
+  display: block;
+  width: 69.3%;
+  min-width: 650px;
+  padding: 20px;
+  padding-bottom: 150px;
+  margin: 0 auto;
+}
+.content{
+  width: 716px
+}
+.sidebar{
+  float: left;
+  height: 100%;
+  width: 232px;
+  padding-right: 10px;
+}
+footer{
+  content: "";
+  clear: both;
+  display: table;
+}
+h1{
+  padding-right: 225px;
+}
+.content p{
+  margin-right: 100px;
+  padding-right: 100px;
+}
+main{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 716px;
+}

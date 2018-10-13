@@ -1,0 +1,40 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+nav {
+  background-color: gray;
+  font-size: 25px;
+  font-family: Comic Sans MS;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding-right: 70px;
+  list-style: none;
+}
+nav li:hover {
+  background-color: lightblue;
+  color: blue;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  padding: 14px 16px;
+}
+#blue{
+  border-bottom: 5px solid lightblue;
+}
+.foot{
+  text-align: left;
+  font-size: 10px;
+}
+#links{
+  font-size: 15px;
+  text-align: right;
+}
