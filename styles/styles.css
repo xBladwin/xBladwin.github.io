@@ -7,7 +7,6 @@ html, body {
 }
 
 /**index page**/
-
 .leftside {
   background-image: url('../images/test.png');
   padding-bottom: 100%;
@@ -17,6 +16,7 @@ html, body {
   top: 0;
   left: 0;
 }
+
 .rightside {
   background-image: url('../images/test2.png');
   padding-bottom: 100%;
@@ -42,7 +42,6 @@ main {
   padding-top: 80px;
   font-size: 24px;
 }
-
 
 nav {
   background-color: darkred;
@@ -89,9 +88,8 @@ main img {
 }
 
 /**Projects page**/
-
 .clonehero {
-  border: 2px solid black;
+  border: 2px solid gray;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
@@ -99,7 +97,7 @@ main img {
 }
 
 .recreate {
-  border: 2px solid black;
+  border: 2px solid gray;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
@@ -107,7 +105,7 @@ main img {
 }
 
 .practice {
-  border: 2px solid black;
+  border: 2px solid gray;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
@@ -115,39 +113,11 @@ main img {
 }
 
 .lancer {
-  border: 2px solid black;
+  border: 2px solid gray;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
- .clonehero a {
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.recreate a {
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.practice a {
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.lancer a {
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .info {
@@ -155,21 +125,43 @@ main img {
   margin-top: 15px;
 }
 
-section a {
-  color: #007fa9;
+.clonehero a img {
+  border-radius: 1%;
+  margin-bottom: 50px;
+  border: 2px solid lightgray;
 }
 
-section a:hover {
-  background-color: gray;
-  color: white;
-  border-radius: 60%;
+.recreate a img {
+  border-radius: 1%;
+  margin-bottom: 50px;
+  border: 2px solid lightgray;
+}
+
+.practice a {
+  text-decoration: none;
+  color: blue;
+}
+
+.lancer a img {
+  border-radius: 1%;
+  margin-bottom: 50px;
+  border: 2px solid lightgray;
+}
+
+.clonehero img:hover {
+  border: 2px solid blue;
+}
+
+.recreate img:hover {
+  border: 2px solid blue;
+}
+
+.lancer img:hover {
+  border: 2px solid blue;
 }
 
 /**contact page**/
-
-
 /**media query to fix resize issues**/
-
 @media screen and (max-width: 850px) {
   ul {
     margin: 0;
@@ -194,9 +186,11 @@ section a:hover {
     padding-right: 250px;
     font-size: 16px;
   }
-  .leftside{
+
+  .leftside {
     height: 100%;
   }
+
   .rightside {
     height: 100%;
   }
